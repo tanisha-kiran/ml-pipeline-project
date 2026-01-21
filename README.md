@@ -56,21 +56,6 @@ python generate_sample_data.py
 # Run complete pipeline
 python main.py
 
-Project Structure
-ml-pipeline-project/
-├── data/
-│   ├── raw/              # Raw data
-│   └── processed/        # Processed data
-├── src/
-│   ├── data_ingestion.py
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── model_evaluation.py
-├── models/               # Trained models
-├── configs/              # Configuration files
-├── main.py               # Main pipeline
-└── requirements.txt
 
 Pipeline Workflow
 Data Ingestion: Load and split data
@@ -86,7 +71,5 @@ Add hyperparameter tuning with GridSearchCV
 Experiment with XGBoost and LightGBM
 Integrate MLflow for experiment tracking
 Create REST API for model serving
-
 Dockerize the application
-
 Add CI/CD with GitHub Actions
