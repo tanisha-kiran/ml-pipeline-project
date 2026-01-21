@@ -57,7 +57,7 @@ python generate_sample_data.py
 python main.py
 
 
-Pipeline Workflow
+#Pipeline Workflow
 Data Ingestion: Load and split data
 Preprocessing: Handle missing values and encode categorical variables
 Feature Engineering: Create features for modeling
@@ -65,7 +65,7 @@ Model Training: Train Random Forest classifier
 Evaluation: Generate metrics and visualizations
 
 
-Future Improvements
+#Future Improvements
 Implement SMOTE for class balancing
 Add hyperparameter tuning with GridSearchCV
 Experiment with XGBoost and LightGBM
@@ -73,3 +73,6 @@ Integrate MLflow for experiment tracking
 Create REST API for model serving
 Dockerize the application
 Add CI/CD with GitHub Actions
+
+#licence
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
