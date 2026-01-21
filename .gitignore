@@ -1,0 +1,24 @@
+# Data
+data/raw/*
+data/processed/*
+*.csv
+
+# Models
+models/*.pkl
+models/*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
